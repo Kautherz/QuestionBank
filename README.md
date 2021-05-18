@@ -43,6 +43,22 @@ Here's a walkthrough of implemented user stories:
 
 <img src='http://g.recordit.co/jIeVeNRXT9.gif' width='' alt='Video Walkthrough' />
 
+## Video Walkthrough (Viewing and Exporting Quiz)
+
+Here's a walkthrough of implemented user stories:
+
+<img src='http://g.recordit.co/C6abpOgapG.gif' width='' alt='Video Walkthrough' />
+
+## Video Walkthrough (Deleting and Editing Various Components)
+
+Here's a walkthrough of implemented user stories:
+
+<img src='' width='' alt='Video Walkthrough' />
+
+
+
+
+
 
 
 
