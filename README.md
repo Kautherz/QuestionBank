@@ -37,7 +37,7 @@ Here's a walkthrough of implemented user stories:
 
 <img src='http://g.recordit.co/Vwdhxd9hAW.gif' width='' alt='Video Walkthrough' />
 
-## Video Walkthrough (Creating Quiz)
+## Video Walkthrough (Viewing Question and Creating Quiz)
 
 Here's a walkthrough of implemented user stories:
 
