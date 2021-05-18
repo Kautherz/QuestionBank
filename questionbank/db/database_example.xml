@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+    <AnswerTypes>
+        <AnswerType>Essay</AnswerType>
+        <AnswerType>MultipleChoice</AnswerType>
+        <AnswerType>True/False</AnswerType>
+    </AnswerTypes>
+    <Courses nextId="6">
+        <Course id="1">
+            <Name>Agile Methodology </Name>
+            <Number>CSCI 6363_new</Number>
+            <Description>Learn about Agile Methodology</Description>
+        </Course>
+        <Course id="2">
+            <Name>Fundamentals of Art</Name>
+            <Number>ART 1001</Number>
+            <Description>We're painting or something.</Description>
+        </Course>
+        <Course id="3">
+            <Name>Zoology For Beginners</Name>
+            <Number>ZOO 1001</Number>
+            <Description>Do you want to feed a panda?</Description>
+        </Course>
+        <Course id="4">
+            <Name>Chemistry</Name>
+            <Number>1001</Number>
+            <Description>Freshmen Chemistry</Description>
+        </Course>
+        <Course id="5">
+            <Name>Physics</Name>
+            <Number>1001</Number>
+            <Description>Freshmen Physics</Description>
+        </Course>
+    </Courses>
+    <Topics nextId="13">
+        <Topic id="1">
+            <Name>Agile Methodology</Name>
+            <Course>1</Course>
+            <Description>Base Level Agile Methodology Info Test</Description>
+        </Topic>
+        <Topic id="3">
+            <Name>Painting</Name>
+            <Course>2</Course>
+            <Description>This is PAINTING!</Description>
+        </Topic>
+        <Topic id="4">
+            <Name>Living Organisms</Name>
+            <Course>3</Course>
+            <Description>Classification of life-forms</Description>
+        </Topic>
+        <Topic id="5">
+            <Name>Unicellular beings</Name>
+            <Course>3</Course>
+            <Description>Talk about single-celled beings</Description>
+        </Topic>
+        <Topic id="6">
+            <Name>Scrum meetings</Name>
+            <Course>1</Course>
+            <Description>How to run Scrum meetings</Description>
+        </Topic>
+        <Topic id="7">
+            <Name>Fluids</Name>
+            <Course>4</Course>
+            <Description>Mechanism of fluids</Description>
+        </Topic>
+        <Topic id="9">
+            <Name>Gravitational Fields</Name>
+            <Course>5</Course>
+            <Description>Newton's laws of motion</Description>
+        </Topic>
+        <Topic id="10">
+            <Name>Vectors and Scalars</Name>
+            <Course>5</Course>
+            <Description>Properties and functions of vectors and scalars</Description>
+        </Topic>
+        <Topic id="12">
+            <Name>Extreme Programming</Name>
+            <Course>1</Course>
+            <Description>Taking programming to the extreme!</Description>
+        </Topic>
+    </Topics>
+    <Questions nextId="24">
+        <Question id="1">
+            <Topic>7</Topic>
+            <PointValue>1</PointValue>
+            <QText>Unconfined flows like that in the oceans and/or atmosphere can only be turbulent flows.</QText>
+            <Answers type="MultipleChoice">
+                <Answer isCorrect="False">True</Answer>
+                <Answer isCorrect="True">False</Answer>
+            </Answers>
+        </Question>
+        <Question id="2">
+            <Topic>3</Topic>
+            <PointValue>5</PointValue>
+            <QText>Which of the following is not a paint finish?</QText>
+            <Answers type="MultipleChoice">
+                <Answer isCorrect="False">Deep Sheen</Answer>
+                <Answer isCorrect="True">Tapioca</Answer>
+                <Answer isCorrect="False">Matte</Answer>
+            </Answers>
+        </Question>
+        <Question id="3">
+            <Topic>4</Topic>
+            <PointValue>15</PointValue>
+            <QText>Which is not a living organism?</QText>
+            <Answers type="MultipleChoice">
+                <Answer isCorrect="True">Chocolate</Answer>
+                <Answer isCorrect="False">Fish</Answer>
+                <Answer isCorrect="True">Geode</Answer>
+                <Answer isCorrect="False">Turtle</Answer>
+            </Answers>
+        </Question>
+        <Question id="4">
+            <Topic>6</Topic>
+            <PointValue>1</PointValue>
+            <QText>Differentiate between “Sprint Planning Meeting” and “Sprint Retrospective Meeting.”</QText>
+            <Answers type="Essay">
+                <Answer>Although the two terms may sound similar, Sprint Planning Meeting and Sprint Retrospective Meeting are quite different from one another. A Sprint Planning Meeting involves all the Scrum roles – product owner, scrum team, and scrum master – coming together to discuss the project priorities and backlog items. Usually, the Sprint Planning Meeting is a weekly event that lasts for about an hour. A Sprint Retrospective Meeting, on the other hand, is one where all the Scrum roles (product owner, scrum team, and scrum master) come together to discuss the good and bad elements of the sprint and the sprint improvements. This meeting is generally an extension of the Sprint Planning Meeting and can last up to two to three hours.</Answer>
+            </Answers>
+        </Question>
+        <Question id="5">
+            <Topic>1</Topic>
+            <PointValue>1</PointValue>
+            <QText>What is Agile?</QText>
+            <Answers type="Essay">
+                <Answer>In software development, Agile practices involve discovering requirements and developing solutions through the collaborative effort of self-organizing and cross-functional teams and their customer/end user.</Answer>
+            </Answers>
+        </Question>
+        <Question id="6">
+            <Topic>1</Topic>
+            <PointValue>1</PointValue>
+            <QText>Which of the following are characteristics and methods that depict Agile methods?</QText>
+            <Answers type="MultipleChoice">
+                <Answer isCorrect="True">User/customer involvement</Answer>
+                <Answer isCorrect="True">Short releases and iterations </Answer>
+                <Answer isCorrect="False">No documentation</Answer>
+                <Answer isCorrect="False">All of the above</Answer>
+            </Answers>
+        </Question>
+        <Question id="7">
+            <Topic>1</Topic>
+            <PointValue>1</PointValue>
+            <QText>Testing only the key features/functionalities is known as ____?</QText>
+            <Answers type="MultipleChoice">
+                <Answer isCorrect="False">Regression testing</Answer>
+                <Answer isCorrect="False">Acceptance testing</Answer>
+                <Answer isCorrect="False">System testing </Answer>
+                <Answer isCorrect="True">Smoke testing</Answer>
+            </Answers>
+        </Question>
+        <Question id="8">
+            <Topic>12</Topic>
+            <PointValue>1</PointValue>
+            <QText>One of the key practices in XP which ensures that all production code is written with two programmers working at the same machine or facility. Which one is the said practice? </QText>
+            <Answers type="MultipleChoice">
+                <Answer isCorrect="False">Refactoring</Answer>
+                <Answer isCorrect="True">Pair programming</Answer>
+                <Answer isCorrect="False">Test driven development</Answer>
+                <Answer isCorrect="False">Stress testing</Answer>
+            </Answers>
+        </Question>
+        <Question id="9">
+            <Topic>12</Topic>
+            <PointValue>1</PointValue>
+            <QText>What are the core values in Extreme Programming?</QText>
+            <Answers type="MultipleChoice">
+                <Answer isCorrect="False">Communication between team members and with the customer</Answer>
+                <Answer isCorrect="False">Simplicity in design and code </Answer>
+                <Answer isCorrect="False">Feedback at many different levels.</Answer>
+                <Answer isCorrect="True">All of the above</Answer>
+            </Answers>
+        </Question>
+        <Question id="10">
+            <Topic>1</Topic>
+            <PointValue>1</PointValue>
+            <QText>Agility is the ability of a project team to respond rapidly to change. True or false?</QText>
+            <Answers type="True/False">
+                <Answer>True</Answer>
+            </Answers>
+        </Question>
+        <Question id="11">
+            <Topic>1</Topic>
+            <PointValue>1</PointValue>
+            <QText>Which of the following is not necessary to apply agility to a software process? </QText>
+            <Answers type="MultipleChoice">
+                <Answer isCorrect="True"> Eliminate the use of project planning and testing</Answer>
+                <Answer isCorrect="False">Only essential work products are produced</Answer>
+                <Answer isCorrect="True">Tayloristic process activities to allow team to streamline tasks</Answer>
+                <Answer isCorrect="False">Uses incremental product delivery strategy</Answer>
+            </Answers>
+        </Question>
+        <Question id="12">
+            <Topic>1</Topic>
+            <PointValue>1</PointValue>
+            <QText>How do you create agile processes to manage unpredictability?</QText>
+            <Answers type="MultipleChoice">
+                <Answer isCorrect="False">Requirements gathering must be conducted very carefully</Answer>
+                <Answer isCorrect="False">Risk analysis must be conducted before planning takes place</Answer>
+                <Answer isCorrect="True">Software increments must be delivered in short time periods</Answer>
+                <Answer isCorrect="True">Software processes must adapt to changes incrementally </Answer>
+            </Answers>
+        </Question>
+        <Question id="13">
+            <Topic>1</Topic>
+            <PointValue>1</PointValue>
+            <QText>In agile development, it is more important to build software that meets the customers’ needs today than worry about features that might be needed in the future. True or false?
+</QText>
+            <Answers type="True/False">
+                <Answer>True</Answer>
+            </Answers>
+        </Question>
+        <Question id="14">
+            <Topic>6</Topic>
+            <PointValue>1</PointValue>
+            <QText>Which is/are not among the key questions that is discussed by each team member at each daily Scrum meeting?</QText>
+            <Answers type="MultipleChoice">
+                <Answer isCorrect="False">What did you do since the last meeting? </Answer>
+                <Answer isCorrect="False">What obstacles are you encountering? </Answer>
+                <Answer isCorrect="True">How can we resolve the problems one is encountering?</Answer>
+                <Answer isCorrect="False">What do you plan to accomplish by the next team meeting?</Answer>
+                <Answer isCorrect="False">None of the above </Answer>
+            </Answers>
+        </Question>
+        <Question id="15">
+            <Topic>3</Topic>
+            <PointValue>1</PointValue>
+            <QText>Which famous painter was also a sculptor, an architect, and an engineer?</QText>
+            <Answers type="MultipleChoice">
+                <Answer isCorrect="True">Leonardo Da Vinci</Answer>
+                <Answer isCorrect="False">Vincent van Gogh</Answer>
+                <Answer isCorrect="False">Pablo Picasso</Answer>
+                <Answer isCorrect="False">Salvador Dali</Answer>
+            </Answers>
+        </Question>
+        <Question id="16">
+            <Topic>3</Topic>
+            <PointValue>1</PointValue>
+            <QText>Claude Monet is most known for his paintings of what?</QText>
+            <Answers type="MultipleChoice">
+                <Answer isCorrect="False">Campbells Soup Cans</Answer>
+                <Answer isCorrect="False">The Eiffel Tower</Answer>
+                <Answer isCorrect="True">Water Lilies</Answer>
+                <Answer isCorrect="False">Himself</Answer>
+            </Answers>
+        </Question>
+        <Question id="17">
+            <Topic>5</Topic>
+            <PointValue>1</PointValue>
+            <QText>Which statement about unicellular organisms is true?</QText>
+            <Answers type="MultipleChoice">
+                <Answer isCorrect="False">Unicellular organisms all have the same basic structure</Answer>
+                <Answer isCorrect="False">Unicellular organisms can only survive in warm dry environments</Answer>
+                <Answer isCorrect="True">Unicellular organisms carry out many of the same activities as multicellular organisms</Answer>
+                <Answer isCorrect="False">Unicellular organisms are most often larger than the tip of a pen</Answer>
+            </Answers>
+        </Question>
+        <Question id="18">
+            <Topic>5</Topic>
+            <PointValue>1</PointValue>
+            <QText>Phytoplankton are small unicellular _____ organisms.</QText>
+            <Answers type="MultipleChoice">
+                <Answer isCorrect="False">animal-like</Answer>
+                <Answer isCorrect="True">plant</Answer>
+                <Answer isCorrect="False">fungi</Answer>
+                <Answer isCorrect="False">decomposer</Answer>
+            </Answers>
+        </Question>
+        <Question id="19">
+            <Topic>5</Topic>
+            <PointValue>1</PointValue>
+            <QText>What is not a method by which unicellular organisms can move?</QText>
+            <Answers type="MultipleChoice">
+                <Answer isCorrect="False">Pseudopod</Answer>
+                <Answer isCorrect="False">Cilia</Answer>
+                <Answer isCorrect="False">Flagellum</Answer>
+                <Answer isCorrect="True">Limb</Answer>
+            </Answers>
+        </Question>
+        <Question id="20">
+            <Topic>9</Topic>
+            <PointValue>1</PointValue>
+            <QText>What is the order of magnitude of the gravitational force between you and the person that sits next to you in class?</QText>
+            <Answers type="MultipleChoice">
+                <Answer isCorrect="False">10^-11 N</Answer>
+                <Answer isCorrect="False">10^-9 N</Answer>
+                <Answer isCorrect="True">10^-7 N</Answer>
+                <Answer isCorrect="False">10^-5 N</Answer>
+            </Answers>
+        </Question>
+        <Question id="21">
+            <Topic>9</Topic>
+            <PointValue>1</PointValue>
+            <QText>What happens to the gravitational force between you and your neigbour if the distance between you doubles?</QText>
+            <Answers type="MultipleChoice">
+                <Answer isCorrect="False">Force becomes 4x as great</Answer>
+                <Answer isCorrect="False">Force becomes 2x as great</Answer>
+                <Answer isCorrect="False">Nothing</Answer>
+                <Answer isCorrect="False">Force becomes smaller by a factor of 2</Answer>
+                <Answer isCorrect="True">Force becomes smaller by a factor of 4</Answer>
+            </Answers>
+        </Question>
+        <Question id="22">
+            <Topic>10</Topic>
+            <PointValue>1</PointValue>
+            <QText>4000 Calories is a</QText>
+            <Answers type="MultipleChoice">
+                <Answer isCorrect="True">Scalar quantity</Answer>
+                <Answer isCorrect="False">Vector quantity</Answer>
+                <Answer isCorrect="False">Neither scalar nor vector</Answer>
+                <Answer isCorrect="False">Both scalar and vector</Answer>
+            </Answers>
+        </Question>
+        <Question id="23">
+            <Topic>10</Topic>
+            <PointValue>1</PointValue>
+            <QText>Example of vector quantity is</QText>
+            <Answers type="MultipleChoice">
+                <Answer isCorrect="False">Mass</Answer>
+                <Answer isCorrect="False">Electric Charge</Answer>
+                <Answer isCorrect="True">Weight</Answer>
+                <Answer isCorrect="False">Volume</Answer>
+            </Answers>
+        </Question>
+    </Questions>
+    <Quizzes nextId="2">
+        <Quiz id="1">
+            <Name>Agile Quiz 1</Name>
+            <Course>1</Course>
+            <Questions>
+                <Question>
+                    <id>6</id>
+                    <PointValue>1</PointValue>
+                </Question>
+                <Question>
+                    <id>7</id>
+                    <PointValue>1</PointValue>
+                </Question>
+                <Question>
+                    <id>8</id>
+                    <PointValue>1</PointValue>
+                </Question>
+                <Question>
+                    <id>9</id>
+                    <PointValue>1</PointValue>
+                </Question>
+                <Question>
+                    <id>10</id>
+                    <PointValue>1</PointValue>
+                </Question>
+                <Question>
+                    <id>11</id>
+                    <PointValue>1</PointValue>
+                </Question>
+                <Question>
+                    <id>12</id>
+                    <PointValue>1</PointValue>
+                </Question>
+                <Question>
+                    <id>13</id>
+                    <PointValue>1</PointValue>
+                </Question>
+                <Question>
+                    <id>14</id>
+                    <PointValue>1</PointValue>
+                </Question>
+            </Questions>
+        </Quiz>
+    </Quizzes>
+</root>
