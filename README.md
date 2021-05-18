@@ -53,7 +53,7 @@ Here's a walkthrough of implemented user stories:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/UU8sEJxld1.gif' width='' alt='Video Walkthrough' />
 
 
 
