@@ -25,11 +25,21 @@ The following **required** functionality is completed:
 - [x] User is able to create an answer key/sheet for a grader (PDF)
 - [x] User can interact with the tree view to navigating across courses, topics, questions, and quizzes.
 
-## Video Walkthrough (Part 1)
+## Video Walkthrough (Creating Course + Topic)
 
 Here's a walkthrough of implemented user stories:
 
 <img src='http://g.recordit.co/C9lYimf47d.gif' width='' alt='Video Walkthrough' />
+
+## Video Walkthrough (Creating Topic + Question)
+
+Here's a walkthrough of implemented user stories:
+
+<img src='http://g.recordit.co/Vwdhxd9hAW.gif' width='' alt='Video Walkthrough' />
+
+
+
+
 
 
 
