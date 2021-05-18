@@ -20,6 +20,8 @@ The following **required** functionality is completed:
 - [x] User can create a question within a certain topic (Multiple Choice, Essay Questions, and True/False Questions)
 - [x] User is able to see Question options from multiple Topics at once when creating a new Quiz
 - [x] User can create a quiz from various topics within a course
+- [x] User is able to edit a Course, Topic, Question, and/or Quiz
+- [x] User is able to delte a Course, Topic, Question, and/or Quiz
 - [x] User is able to reassign Question point values when creating a Quiz
 - [x] User is able to export a Quiz into a text file
 - [x] User is able to create an answer key/sheet for a grader (PDF)
