@@ -1,4 +1,4 @@
-# Project - *Question Bank*
+# *Question Bank*
 
 **Question Bank** is a basic java application that utilizes java swing and was implemented to be used in an academic setting by a teacher/professor to automatically generate quizzes for any course and their respective topics. This application was created within an agile software engineering course, where the students were the development team and the professor was the client. All the necessary agile practices such as SCRUM meetings, Sprint Planning, Sprint Retrospective,etc. were carried out to get the full agile experience.
 
